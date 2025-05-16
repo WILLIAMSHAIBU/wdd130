@@ -1,0 +1,41 @@
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    color: darkblue;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
+
+aside {
+    width: 250px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 6px;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
