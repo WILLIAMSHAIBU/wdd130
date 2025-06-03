@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact Page</title>
+        <meta name="description" content="W05 Rafting Project: Contact Page">
+        <meta name="author" content="William Shaibu">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+            <header>
+                <img src="images/logo.jpg" alt="Rafting Site Logo">
+                <h1>White Water Rafting Co.</h1>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+        </header>
+                <main>
+                    <section class="contact-info">
+                        <h2>Contact Us</h2>
+                        <p>Address: 123 River Road, Rapids City, RC 12345</p>
+                        <p>Phone: +1 (555) 123-4567</p>
+                        <p>Email: contact@whitewaterrafting.com</p>
+                        <div class="map">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=..." 
+                                width="90%" 
+                                height="200" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </section>
+
+                    <section class="employee-profiles">
+                        <h2>Meet Our Team</h2>
+                        <div class="employees">
+                            <figure>
+                                <img src="images/employee.png" alt="Smiling Guide 1">
+                                <figcaption>John Doe – Senior Guide</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/employee.png" alt="Smiling Guide 2">
+                                <figcaption>Jane Smith – Adventure Specialist</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="images/employee.png" alt="Smiling Guide 3">
+                                <figcaption>Mike Lee – Safety Officer</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+
+                    <section class="contact-form">
+                        <h2>Send Us a Message</h2>
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <p>Purpose of Message:</p>
+                            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                            <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+                            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+
+                            <label>
+                                <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                            </label>
+
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </section>
+                </main>
+
+            <footer>
+                <p>&copy; 2025 White Water Rafting Co. | WILLIAM SHAIBU</p>
+                <nav class="socialmedia">
+                <a href="https://facebook.com"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook2_colored_svg-64.png" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-64.png" alt="Twitter"></a>
+                <a href="https://instagram.com"><img src="https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/instagram_icon-instagram_buttoninstegram-64.png" alt="Instagram"></a>
+                </nav>
+            </footer>
+
+    </body>
+</html>
