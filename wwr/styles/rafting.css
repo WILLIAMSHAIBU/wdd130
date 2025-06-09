@@ -185,3 +185,63 @@ button[type="submit"] {
     cursor: pointer;
     font-size: 1rem;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-msg {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.cta {
+    text-align: center;
+    padding: 2rem;
+}
+
+.cta .button {
+    background-color: #0077cc;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.info-grid img {
+    width: 80%;
+    height: auto;
+}
+
+.newsletter {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 2rem;
+    margin-right: 20px;
+}
+
+.newsletter input,
+.newsletter button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
