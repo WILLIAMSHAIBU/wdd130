@@ -316,6 +316,93 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.6);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+/* Info Grid */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.info-grid div {
+  text-align: center;
+}
+
+.info-grid img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Newsletter */
+.newsletter {
+  background-color: #caf0f8;
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 200px;
+  max-width: 80%;
+}
+
+.newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #023e8a;
+}
+
+/* CTA Button */
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #0077b6;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #023e8a;
+}
+
+
 /* Trip Grid */
 .trip-grid {
   display: grid;
